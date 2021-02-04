@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_baseline_emoji_emotions_24"></ImageView>
+
+    <ImageButton
+        android:id="@+id/img_button"
+        android:layout_width="173dp"
+        android:layout_height="137dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_face_24" />
+
+</LinearLayout>
